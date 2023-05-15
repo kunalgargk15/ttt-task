@@ -55,7 +55,7 @@ function App() {
     }));
 
     console.log(sortedObjects);
-    setFlag(true);
+    setFlag(!flag);
     setWordData(sortedObjects.slice(0, 20));
   }
 
